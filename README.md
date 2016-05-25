@@ -4,13 +4,20 @@ Flickr Search App
 Flickr Search App is a project based on Yii 2(http://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
-On the homepage, you will see a button saying 'Search photos on Flickr', when you click this button, you will be taken to Login page
+On the homepage, you will see a button saying 'Search photos on Flickr', 
+![Home Page](http://shoposm.com/flickrapp/s1.jpg)
+
+when you click this button, you will be taken to Login page
 and asked to login. If you do not have a login, there is a Link to Register on site, clicking which you will be taken to registration page
 
 Once you register with valid data, you will be auto logged in and redirected to Search Index page where you can see a search form.
 
 Input any Keywords in the search test box and click Search button. You will be taken to search result page where the results will
-be shown.
+be shown. 
+
+There is pagination shown below the thumbnails.
+
+Clicking on a thumbnail, Original image is shown in a new Page.
 
 
 DIRECTORY STRUCTURE
