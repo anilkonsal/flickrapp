@@ -91,4 +91,11 @@ http://localhost/flickrapp/web/
 TESTS
 ------
 
-Tests are written using Codeception in this project.
+Acceptance Tests are written using Codeception in this project.
+
+```
+cd flickrapp
+
+php vendor/bin/codecept run acceptance
+
+```
