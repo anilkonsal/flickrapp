@@ -82,6 +82,23 @@ return [
 ];
 ```
 
+After this, you have to run migrations which will create database tables for you.
+
+Run
+
+``` 
+
+cd flickrapp
+
+./yii migrate
+
+```
+
+Press Ok or Yes, if asked for confirmation to run the migrations.
+
+Once run, please check in your database; you should have 3 tables in your database.
+
+
 You can then access the application through the following URL:
 
 ~~~
